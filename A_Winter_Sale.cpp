@@ -10,4 +10,5 @@ int main() {
     cout << fixed << setprecision(2) << original << endl;
 
     return 0;
+    
 }
