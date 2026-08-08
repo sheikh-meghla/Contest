@@ -11,13 +11,13 @@ int main() {
     while (n--) {
         cin >> x;
 
-        int cnt = 0;
+        int counted_iterator = 0;
         while (x % 2 == 0) {
-            cnt++;
+            counted_iterator++;
             x /= 2;
         }
 
-        ans = max(ans, cnt);
+        ans = max(ans, counted_iterator);
     }
 
     cout << ans << endl;
